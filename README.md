@@ -1,1 +1,1 @@
-This project is a reconsturction of the google homepage for the odin project
+This project is a reconstruction of the google homepage for the odin project
