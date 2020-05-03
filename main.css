@@ -1,0 +1,104 @@
+/* main.css */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    font-family: 'segoe UI', 'Roboto', arial, sans-serif;
+}
+header {
+    padding: 15px;
+    font-size: 13px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+}
+li a {
+    font-family: arial, sans-serif;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.75;
+}
+/* when mouse over navbar and footer */
+li a:hover {
+   text-decoration: underline; 
+}
+#google-logo {
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 199px;
+    padding-bottom: 25px;
+}
+#searchbox {
+    transition: box-shadow .1s;
+    display: flex;
+    margin: auto;
+    width: 23%;
+    height: 44px;
+    border-radius: 24px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+}
+/* when mouse over searchbox */
+#searchbox:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+footer {
+    background: #f2f2f2;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    margin: 11px 4px;
+    min-width: 54px;
+}
+#buttons {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow .1s;
+    background-color: #f2f2f2;
+}
+/* when mouse over buttons */
+#buttons:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.hyperlink {
+    display: flex;
+    font-size: small;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    cursor: pointer;
+}
